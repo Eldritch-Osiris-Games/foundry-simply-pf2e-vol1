@@ -1,0 +1,81 @@
+:root {
+    --simply-pf2e-white: #fff;
+    --simply-pf2e-off-white: #eee;
+    --simply-pf2e-purple: #3b2364;
+}
+
+@font-face {
+    font-family: 'opendyslexic3bold';
+    src: url('fonts/opendyslexic3-bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opendyslexic3regular';
+    src: url('fonts/opendyslexic3-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+* Set all text content of the journal to Open Dyslexic.
+*/
+.simply-pf2e > section.window-content >  div.journal-sheet-container > section.journal-entry-content > div.journal-entry-pages > div.scrollable > article.journal-entry-page > section.journal-page-content > * {
+    font-family: 'opendyslexic3regular';
+}
+
+/*
+* -----------------
+* Set title box to off-white, and sheet background to white.
+*/
+.simply-pf2e > section.window-content > div.journal-sheet-container > section.journal-entry-content > form.journal-header > input.title {
+    background: var(--simply-pf2e-off-white);
+}
+
+.simply-pf2e > section.window-content > div.journal-sheet-container > section.journal-entry-content {
+    background: var(--simply-pf2e-white);
+}
+
+/*
+* ----------------
+* Configure Journal headings to match Simply PF2e style
+*/
+.journal-page-header.simply-pf2e {
+    text-align: center;
+    font-family: 'opendyslexic3bold';
+    color: var(--simply-pf2e-purple);
+    text-transform: uppercase;
+}
+
+.journal-page-header.simply-pf2e > h1 {
+    border-bottom: none;
+}
+
+/*
+* ----------------
+* The below rules set the font of the journal's UI to Open Dyslexic. Uncomment at your own risk!
+*/
+
+/* .simply-pf2e section.window-content >  div.journal-sheet-container > 
+aside.journal-sidebar > div.action-buttons > button.create {
+    font-family: 'opendyslexic3regular';
+    font-size: 13px
+} */
+
+/*
+* -----------------
+* Reduce font sizes in title bar, ToC, page search, and add page button since Open Dyslexic is quite big.
+*/
+/* .simply-pf2e > header.window-header,
+
+.simply-pf2e section.window-content >  div.journal-sheet-container > 
+aside.journal-sidebar > nav.pages-list > ol.directory-list > li.directory-item > div.page-heading,
+
+.simply-pf2e section.window-content >  div.journal-sheet-container > 
+aside.journal-sidebar > header.directory-header > div.header-search > input,
+
+.simply-pf2e section.window-content >  div.journal-sheet-container > 
+aside.journal-sidebar > div.actions-buttons > button.create {
+    font-size: 13px;
+} */

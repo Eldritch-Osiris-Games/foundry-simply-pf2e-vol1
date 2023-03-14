@@ -1,0 +1,40 @@
+{
+  "title": "Simply PF2e Vol. 1",
+  "id": "foundry-simply-pf2e-vol1",
+  "description": "",
+  "manifest": "",
+  "download": "",
+  "url": "",
+  "authors": [
+    {
+      "name": "Quinn Stone"
+    }
+  ],
+  "version": "v1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "relationships": {
+    "systems": {
+      "id": "pf2e",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+      "compatibility": {
+        "minimum": "4.0.0",
+        "verified": "4.8.2"
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "simply-pf2e-vol1",
+      "label": "Simply PF2e Vol. 1",
+      "path": "./packs/simply-pf2e-vol1.db",
+      "type": "JournalEntry",
+      "system": "pf2e"
+    }
+  ],
+  "esmodules": ["script.mjs"],
+  "styles": ["styles.css"],
+  "flags": {}
+}
