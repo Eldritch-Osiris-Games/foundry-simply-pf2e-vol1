@@ -1,10 +1,10 @@
 {
   "title": "Simply PF2e Vol. 1",
   "id": "foundry-simply-pf2e-vol1",
-  "description": "",
-  "manifest": "",
-  "download": "",
-  "url": "",
+  "description": "Simply PF2e brings bite sized rules and tips for Pathfinder 2e as an introduction to new adventurers with a focus on readability to those with ADHD, Dyslexia, and other obstacles. Panels on rules, classes, and Golarion lore every Monday, Wednesday, and Friday on simplypf2e.com and the week's panels are posted on Reddit on Fridays where conversation and clarification of panels are encouraged!",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-simply-pf2e-vol1/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-simply-pf2e-vol1/archive/refs/heads/main.zip",
+  "url": "https://www.simplypf2e.com/",
   "authors": [
     {
       "name": "Quinn Stone"
